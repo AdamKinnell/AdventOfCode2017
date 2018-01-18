@@ -6,5 +6,6 @@ All solutions have been tested on Python 3.6.1 x64, running under Windows 10 x64
 
 Solutions are labeled as:
 `[Challenge]/[Challenge]_[Part]_[Version].py`
+
 Inputs are labeled as:
 `[Challenge]/[Challenge]_[Part].txt`
