@@ -48,7 +48,7 @@ class TestProcessStream(unittest.TestCase):
 
 stream = open('day9.txt').read()
 score, garbage = process(stream)
-
 print('Score:', score)
 print('Garbage:', garbage)
+
 unittest.main()

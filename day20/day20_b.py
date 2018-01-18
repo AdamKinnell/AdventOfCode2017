@@ -37,4 +37,4 @@ while True:
     removed = before - len(particles)
     if removed > 0:
         print('Removed:', removed)
-        print('Remaining:', len(particles))
+        print('Remaining:', len(particles)) # = 420

@@ -129,4 +129,4 @@ key = 'amgozmfv'
 
 grid = generate_defrag_grid(key)
 cc = ConnectedComponents(grid)
-print(len(cc.regions)) # = 1086
+print('Regions:', len(cc.regions)) # = 1086

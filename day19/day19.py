@@ -63,5 +63,5 @@ grid = open('day19.txt').readlines()
 
 pf = PathFinder(grid)
 tiles = pf.traverse()
-print("Letters:", "".join([t for t in tiles if t in string.ascii_letters]))
-print("Steps:", len(tiles))
+print("Letters:", "".join([t for t in tiles if t in string.ascii_letters])) # = PVBSCMEQHY
+print("Steps:", len(tiles)) # = 17736

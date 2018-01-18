@@ -28,5 +28,4 @@ def hash(size, lengths):
 lengths = list(map(int, open('day10.txt').read().split(',')))
 string = hash(256, lengths)
 
-print(string)
 print(string[0] * string[1]) # = 46600

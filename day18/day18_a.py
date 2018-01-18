@@ -36,4 +36,4 @@ def run(code):
 # Entry Point #######################################################
 
 instructions = list(map(str.split, open('day18.txt').readlines()))
-print('Recovered:', run(instructions))
+print('Recovered:', run(instructions)) # = 4601

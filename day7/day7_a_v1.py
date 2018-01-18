@@ -20,7 +20,7 @@ def find_bottom_program(programs):
 
 # Entry Point #######################################################
 
-#programs = list(map(parse_program, open("day7_test.txt").readlines())) # = tknk
-programs = list(map(parse_program, open("day7.txt").readlines())) # = hmvwl
-#print(programs)
-print('Bottom:', find_bottom_program(programs))
+#code = list(map(parse_program, open("day7_test.txt").readlines())) # = tknk
+code = list(map(parse_program, open("day7.txt").readlines())) # = hmvwl
+
+print('Root:', find_bottom_program(code)[0])

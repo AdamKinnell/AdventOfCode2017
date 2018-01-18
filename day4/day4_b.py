@@ -5,4 +5,5 @@ def is_valid(phrase):
 
 passphrases = open("day4.txt").readlines()
 valid_phrases = list(filter(is_valid, passphrases))
-print(len(passphrases), len(valid_phrases))
+
+print('Valid Passphrases:', len(valid_phrases)) # = 231

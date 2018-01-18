@@ -29,6 +29,4 @@ def find_loop(banks):
 memory = list(map(int, open("day6.txt").read().split())) # = 3156
 #memory = [0,2,7,0] # = 5
 
-print(memory)
-print(find_loop(memory))
-print(memory)
+print('Cycle count:', find_loop(memory))

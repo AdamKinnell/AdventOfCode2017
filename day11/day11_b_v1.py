@@ -17,5 +17,5 @@ for offset in offsets:
     distance = max(map(abs, position))
     furthest = max(furthest, distance)
 
-print('Position:', position)
-print('Furthest:', furthest)
+print('Final Position:', position)
+print('Furthest Distance:', furthest)

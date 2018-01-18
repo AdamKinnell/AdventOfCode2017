@@ -21,6 +21,6 @@ vel_magnitudes = [(i,mag(vel)) for i,(pos,vel,acc) in enumerate(particles) if ma
 i, min_vel = min(vel_magnitudes, key=lambda x: x[1]) # Lowest velocity
 
 pos_magnitudes = [(i,mag(pos)) for i,(pos,vel,acc) in enumerate(particles) if mag(vel) == min_vel]
-i, min_pos = min(pos_magnitudes, key=lambda x: x[1]) # Closest position
+i, min_pos = min(pos_magnitudes, key=lambda x: x[1]) # Lowest distance
 
-print("Closest to origin:", i)
+print("Closest to origin:", i) # = 364

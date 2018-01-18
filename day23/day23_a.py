@@ -39,4 +39,4 @@ def run(code):
 
 instructions = list(map(str.split, open('day23_a.txt').readlines()))
 mul_count = run(instructions)
-print('MUL run:', mul_count)
+print('MUL count:', mul_count) # = 5929

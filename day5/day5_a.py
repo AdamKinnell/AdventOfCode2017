@@ -7,8 +7,9 @@ def execute(code):
         pc += code[pc] - 1
         step += 1
         
-    return pc, step
+    return step
 
 instructions = list(map(int,open("day5.txt").readlines())) # = 342669
 #instructions = [0, 3 ,0, 1, -3] # = 5
-print(execute(instructions))
+
+print("Steps 'till exit:", execute(instructions))

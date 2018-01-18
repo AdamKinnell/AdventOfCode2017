@@ -1,5 +1,5 @@
 skip = 328
-mask = 2**20 -1
+progress_mask = 2**20 -1
 
 size = 1
 pos = 0
@@ -15,7 +15,7 @@ for i in range(1,50_000_000 + 1):
         print('New Number:', after_zero)
 
     # Show progress
-    if i & mask == 0:
+    if i & progress_mask == 0:
         print('Progress:', i)
 
-print(after_zero)
+print('Final number after 0:', after_zero) # = 2316253

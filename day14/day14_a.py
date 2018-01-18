@@ -52,4 +52,4 @@ for row in range(0, 128):
     result = knot_hash(hash_input)
     used += count_bits(result)
 
-print(used)
+print('Used Squares:', used)

@@ -58,7 +58,6 @@ tree = build_tree(open("day7.txt").readlines())
 root = find_root_program(tree)
 update_total_weights(tree, root)
 fixed_node = fix_invalid_weight(tree, root)
-#update_total_weights(tree, root)
-#fixed_node = fix_invalid_weight(tree, root)
 
-print("Fixed:", fixed_node)
+print("Fixed Node:", fixed_node)
+print("New weight:", fixed_node['weight']) # = 1853

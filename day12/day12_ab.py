@@ -62,7 +62,5 @@ graph.compact_groups()
 # Print info
 zero_group = graph.nodes[0]
 zero_buddies = graph.groups[zero_group]
-#print("0's group:", zero_group)
-#print("0's buddies:", zero_buddies)
 print("Part 1 - Size of 0's group:", len(zero_buddies))
 print("Part 2 - Number of groups:", len(graph.groups))

@@ -8,5 +8,6 @@ def rowfunc(row):
 file = open("day2.txt")
 lines = file.readlines()
 rows = [list(map(int, line.split('\t'))) for line in lines]
+
 checksum = sum([rowfunc(row) for row in rows])
-print(checksum)
+print('Checksum:', checksum) # = 303

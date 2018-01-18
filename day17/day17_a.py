@@ -9,4 +9,4 @@ for i in range(1,2018):
     lst.insert(pos, i)
     pos += 1
 
-print(lst[lst.index(2017) + 1]) # = 1670
+print('Value after 2017:', lst[lst.index(2017) + 1]) # = 1670

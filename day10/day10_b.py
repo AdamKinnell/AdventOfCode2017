@@ -42,4 +42,4 @@ def knot_hash(string):
 # Entry Point #######################################################
 
 text = open('day10.txt').read()
-print(knot_hash(text))
+print('Hash:', knot_hash(text)) # = 23234babdc6afa036749cfa9b597de1b

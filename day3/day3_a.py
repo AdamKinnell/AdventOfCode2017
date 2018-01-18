@@ -45,6 +45,5 @@ class TestFindSteps(unittest.TestCase):
 
 if __name__ == "__main__":
     code = 361527
-    print(count_steps_to_center_from(code))
-
+    print('Distance to center:', count_steps_to_center_from(code)) # = 326
     unittest.main()

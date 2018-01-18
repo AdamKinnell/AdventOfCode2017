@@ -56,5 +56,6 @@ def run(code):
 
 instructions = list(map(str.split, open('day18.txt').readlines()))
 #instructions = list(map(str.split, open('day18_test.txt').readlines()))
+
 p0, p1 = run(instructions)
 print('Program 1 sent:', p1['_sent']) # = 6858

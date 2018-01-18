@@ -81,10 +81,9 @@ eh = Enhancer(rb)
 state = RuleBook.parse_pattern(".#./..#/###")
 for i in range(0, ITERATIONS):
     print("Starting Iteration:", i+1)
-    #print(numpy.array(state))
     state = eh.enhance(state)
 
 final = numpy.array(state)
-print('Pixels On:', numpy.count_nonzero(final == '#'))
+print('Pixels On:', numpy.count_nonzero(final == '#')) # = 3018423
 print('Final state after', ITERATIONS, 'iterations:')
 print(final)

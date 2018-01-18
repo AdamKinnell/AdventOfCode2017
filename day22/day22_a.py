@@ -27,4 +27,4 @@ for _ in range(0, 10000):
     pos += nxt
 
 # Show results
-print("Newly Infected:", infected)
+print("Newly Infected:", infected) # = 5530

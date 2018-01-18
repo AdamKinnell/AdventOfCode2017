@@ -95,5 +95,6 @@ class TestCalcValue(unittest.TestCase):
 # Entry Point #######################################################
 
 if __name__ == "__main__":
-    #unittest.main()
-    print(calc_value_at_index(lambda p,i,r,n: n > 361527))
+    x = 361527
+    print(calc_value_at_index(lambda p,i,r,n: n > x)) # = 363010
+    unittest.main()

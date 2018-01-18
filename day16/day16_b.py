@@ -21,9 +21,10 @@ while True:
             programs[i], programs[j] = programs[j], programs[i]
 
     if programs == seen[0]:
-        cycle_length = len(seen)
-        print('Repeats after:', cycle_length)
-        print('1,000,000 =', "".join(seen[1_000_000 % cycle_length]))
         break
     else:
         seen.append(list(programs))
+
+cycle_length = len(seen)
+print('Repeats after:', cycle_length) # = 60
+print('1,000,000,000 =', "".join(seen[1_000_000_000 % cycle_length])) # = pnhajoekigcbflmd

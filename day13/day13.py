@@ -43,5 +43,5 @@ lines = open('day13.txt').readlines()
 
 scanners = dict((map(int, l.split(':')) for l in lines))
 fw = FireWall(scanners)
-print("0 Delay:", fw.traverse(0))       # = 788
-print("Brute force:", fw.brute_force()) # = 3905748
+print("Severity w/ 0 delay:", fw.traverse(0)[1]) # = 788
+print("Picoseconds Delay:", fw.brute_force())    # = 3905748

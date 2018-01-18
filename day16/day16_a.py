@@ -17,4 +17,4 @@ for move in moves:
         i,j = programs.index(a), programs.index(b)
         programs[i], programs[j] = programs[j], programs[i]
 
-print("".join(programs))
+print("After dance:", "".join(programs)) # = ceijbfoamgkdnlph

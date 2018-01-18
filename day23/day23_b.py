@@ -12,4 +12,4 @@ for n in numbers:
     if not is_prime(n):
         composites += 1
 
-print(composites) # = 907
+print('Number of composites:', composites) # = 907

@@ -1,3 +1,5 @@
+# Too slow to complete.
+
 skip = 328
 
 lst = [0]
@@ -8,6 +10,6 @@ for i in range(1,50_000_000 + 1):
     pos += 1
 
     if i & (2**16 -1) == 0:
-        print(i)
+        print('Progress:', i)
 
-print(lst[lst.index(0) + 1])
+print('Value after 0:', lst[lst.index(0) + 1])
